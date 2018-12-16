@@ -38,6 +38,13 @@ p sentence.sub("the jungle", "utopia")
 phrase = 'Mik asked \'Oy, where are my muffins!?\''
 p phrase
 
+# INPUT FROM THE USER
+puts "What is your first name?"
+firstname= gets.chomp
+puts "Thanks, you said your first name is #{firstname}."
 
+puts "Enter a number to mulitiply by "
+input = gets.chomp
+puts input.to_i * 2
 
 
