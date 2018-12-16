@@ -14,3 +14,10 @@ def say_hello
 end
 
 say_hello
+
+#taking an argument
+def say_yo(thing_to_say)
+    puts thing_to_say
+end
+
+say_yo "Get funky"
