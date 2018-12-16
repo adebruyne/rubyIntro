@@ -22,6 +22,24 @@ num2 = gets.chomp
 puts "The first number multiplied by the second number is #{num1.to_i * num2.to_i}."
 
 
+#creates a range
  x = 1..100
  
  x.to_a.shuffle
+
+ # to_a method creates an array
+
+ # shuffle , shuffles the array
+
+ #the ! operator mutates the caller
+
+ #.push adds it to the end
+ #.pop pops it off the end
+#.join turns each item in an array into a long string
+#.join("-") would attach each item with a -
+#.split turns it into an array
+
+#%W() turns each element into an array
+
+#.each do |food|
+# z.each { |food| print food + " "}
