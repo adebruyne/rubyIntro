@@ -20,3 +20,8 @@ num1 = gets.chomp
 puts "Enter the second number"
 num2 = gets.chomp
 puts "The first number multiplied by the second number is #{num1.to_i * num2.to_i}."
+
+
+ x = 1..100
+ 
+ x.to_a.shuffle
