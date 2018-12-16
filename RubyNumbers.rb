@@ -43,3 +43,4 @@ puts "The first number multiplied by the second number is #{num1.to_i * num2.to_
 
 #.each do |food|
 # z.each { |food| print food + " "}
+#z.select ---tests for boolean
